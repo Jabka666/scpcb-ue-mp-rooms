@@ -16426,13 +16426,13 @@ entity
     "classname" "mesh"
     "angles" "359.99999 -175.94218 360"
     "file" "officeseat_a"
-    "position" "824 0 -805"
+    "position" "778 0 -806"
     "scale" "1 1 1"
     "hasCollision" "Yes"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
-    "origin" "824.00000000 -805.00000000 0.00000000"
+    "origin" "778.00000000 -806.00000000 0.00000000"
     editor
     {
         "color" "255 0 255"
@@ -18155,8 +18155,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[564.01280000 -730.38180000 5112.93800000]"
-        "look" "[654.70290000 -743.33670000 5084.25000000]"
+        "position" "[621.40380000 -468.21940000 316.36970000]"
+        "look" "[702.42980000 -429.43780000 282.51270000]"
     }
 }
 cordon
