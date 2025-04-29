@@ -1,0 +1,38 @@
+{
+  "Name": "door",
+  "Description": "Door",
+  "Sprite": "sprites/door_sprite",
+  "UseModelRendering": false,
+  "Properties": [
+    {
+		"Name": "angles",
+		"SmartEditName": "Rotation",
+		"Type": "Vector",
+		"DefaultValue": "0 0 0"
+    },
+	{
+		"Name": "open",
+		"SmartEditName": "Open?",
+		"Type": "Bool",
+		"DefaultValue": "Yes"
+    },
+	{
+		"Name": "type",
+		"SmartEditName": "Door Type",
+		"Type": "Integer",
+		"DefaultValue": "0"
+	},
+	{
+		"Name": "keycard",
+		"SmartEditName": "Key Card Level",
+		"Type": "Integer",
+		"DefaultValue": "0"
+	},
+	{
+		"Name": "code",
+		"SmartEditName": "Code",
+		"Type": "Integer",
+		"DefaultValue": "0"
+	}
+  ]
+}
