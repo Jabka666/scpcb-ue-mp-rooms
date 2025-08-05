@@ -45,7 +45,7 @@ viewsettings
     "bHideToolTextures" "0"
     "bHideEntitySprites" "0"
     "bHideMapOrigin" "0"
-    "bTextureLock" "1"
+    "bTextureLock" "0"
     "bTextureScalingLock" "0"
 }
 world
@@ -5476,7 +5476,7 @@ entity
     "color" "255 255 255"
     "innerconeangle" "25"
     "outerconeangle" "90"
-    "range" "500"
+    "range" "700"
     "position" "-352 16 0"
     "intensity" "0.5"
     "hassprite" "No"
@@ -5499,7 +5499,7 @@ entity
     "color" "255 255 255"
     "innerconeangle" "25"
     "outerconeangle" "90"
-    "range" "500"
+    "range" "700"
     "position" "-352 16 640"
     "intensity" "0.5"
     "hassprite" "No"
@@ -5522,7 +5522,7 @@ entity
     "color" "255 255 255"
     "innerconeangle" "25"
     "outerconeangle" "90"
-    "range" "500"
+    "range" "700"
     "position" "352 16 0"
     "intensity" "0.5"
     "hassprite" "No"
@@ -5545,7 +5545,7 @@ entity
     "color" "255 255 255"
     "innerconeangle" "25"
     "outerconeangle" "90"
-    "range" "500"
+    "range" "700"
     "position" "352 16 -640"
     "intensity" "0.5"
     "hassprite" "No"
@@ -5568,7 +5568,7 @@ entity
     "color" "255 255 255"
     "innerconeangle" "25"
     "outerconeangle" "90"
-    "range" "500"
+    "range" "700"
     "position" "352 16 640"
     "intensity" "0.5"
     "hassprite" "No"
@@ -5629,7 +5629,7 @@ entity
     "color" "255 255 255"
     "innerconeangle" "25"
     "outerconeangle" "90"
-    "range" "500"
+    "range" "700"
     "position" "-352 16 -640"
     "intensity" "0.5"
     "hassprite" "No"
@@ -5839,13 +5839,70 @@ entity
         "parentid" "1"
     }
 }
+entity
+{
+    "id" "123"
+    "classname" "light"
+    "color" "255 255 234"
+    "intensity" "0.05"
+    "range" "2300"
+    "hassprite" "No"
+    "position" "0 270 0"
+    "spawnflags" "0"
+    "origin" "0.00000000 0.00000000 270.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "162"
+    "classname" "light"
+    "color" "255 255 234"
+    "intensity" "0.01"
+    "range" "2300"
+    "hassprite" "No"
+    "position" "0 206 -480"
+    "spawnflags" "0"
+    "origin" "0.00000000 -480.00000000 206.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
+entity
+{
+    "id" "163"
+    "classname" "light"
+    "color" "255 255 234"
+    "intensity" "0.01"
+    "range" "2300"
+    "hassprite" "No"
+    "position" "0 206 480"
+    "spawnflags" "0"
+    "origin" "0.00000000 480.00000000 206.00000000"
+    editor
+    {
+        "color" "255 0 255"
+        "visgroupshown" "1"
+        "visgroupautoshown" "1"
+        "parentid" "1"
+    }
+}
 cameras
 {
     "activecamera" "0"
     camera
     {
-        "position" "[52.47188000 -659.50020000 372.17620000]"
-        "look" "[26.37555000 -574.15670000 336.79950000]"
+        "position" "[-222.89540000 -737.76080000 437.01900000]"
+        "look" "[-199.20220000 -649.50340000 407.60280000]"
     }
 }
 cordon
