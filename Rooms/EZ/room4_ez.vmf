@@ -23452,7 +23452,7 @@ entity
     "file" "speaker.b3d"
     "position" "345 332 357"
     "scale" ".3 .3 .3"
-    "hasCollision" "Yes"
+    "hasCollision" "No"
     "meshFX" "0"
     "textureOverwrite" ""
     "spawnflags" "0"
@@ -23691,8 +23691,8 @@ cameras
     "activecamera" "0"
     camera
     {
-        "position" "[13.14846000 362.37290000 295.84020000]"
-        "look" "[57.41067000 277.32000000 291.03260000]"
+        "position" "[-116.44650000 342.43980000 232.17650000]"
+        "look" "[-202.98530000 328.57340000 192.99730000]"
     }
 }
 cordon
