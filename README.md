@@ -1,4 +1,4 @@
-# Assets for SCP - Containment Breach and Ultimate Edition
+# Assets for SCP - Containment Breach Multiplayer Reborn
 
 All assets (textures, models and rooms) are free to use and share.
 
